@@ -1,0 +1,125 @@
+/* OVERALL STYLES */
+body{
+    margin: 20px;
+}
+/* SIDEBAR NAV */
+.sidebar{
+    margin-left: 15px;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 95%;
+    margin: auto;
+    height: 100vh;
+
+}
+.name{
+    font-family: futura-pt,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+}
+nav{
+    margin-top: 6rem;
+}
+li{
+    font-family: futura-pt,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    list-style-type: none;
+    font-size: 2.2rem;
+    line-height: 2.8;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.logo-container{
+    margin-top: 8rem;
+}
+.logo{
+    width: 40px;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* PORTFOLIO SECTION */
+
+.portfolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+form{
+    font-family: futura-pt,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+}
+.btn{
+    background-color: black !important;
+}
+label{
+    margin: 10px auto;
+    font-size: 18px;
+    font-weight: 400;
+}
+input{
+    margin: 5px auto;
+}
+.brewloc{
+    width: 300px;
+}
+.password{
+    width: 300px;
+}
+
+/* ABOUT */
+h2{
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+.about-des{
+    text-align: center;
+}
+p{
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.profile-img{
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+/* Project Pages */
+h3{
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+.moonlight{
+    width: 60%;
+}
+.mockup{
+    width: 60%;
+}
+.rippled{
+    width: 90%
+}
+h1{
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+}
